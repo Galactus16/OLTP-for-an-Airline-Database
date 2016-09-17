@@ -20,12 +20,12 @@ public class createConnection {
 
         // Create property object to hold user name & password
         Properties myProp = new Properties();
-        myProp.put("user", "team06");
-        myProp.put("password", "Galactus@16");
+        myProp.put("user", "xxxxxxxx");
+        myProp.put("password", "xxxxxxxx");
         
         try {
         	//System.out.println("In try to make connection");
-            conn = DriverManager.getConnection("jdbc:postgresql://129.7.243.243:5432/team06", myProp);
+            conn = DriverManager.getConnection("jdbc:postgresql://xxxxxxxxxxx", myProp);
             //System.out.println("In try Connection successful");
             return conn;
         } catch (SQLException e) {

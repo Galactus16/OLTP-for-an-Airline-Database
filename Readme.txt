@@ -6,7 +6,5 @@ javac oltp_airline.java
 
 java oltp_airline nthreads=40
 
-Team06 : 
-Anupam (1426953)
-Cotrik (1365108)
 
+Here 40 can be changed to any number. It denotes the number of concurrent threads.
